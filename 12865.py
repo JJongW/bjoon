@@ -7,6 +7,7 @@
 #준서가 최대한 즐거운 여행을 하기 위해 배낭에 넣을 수 있는 물건들의 가치의 최댓값을 알려주자.
 
 n,k=map(int,input().split())
+w=[]
 for i in range(0,n):
     w[i]=list(map(int,input().split()))
 
