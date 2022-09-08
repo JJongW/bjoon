@@ -8,6 +8,26 @@
 
 n,k=map(int,input().split())
 w=[]
+v=[]
 for i in range(0,n):
-    w[i]=list(map(int,input().split()))
+    a, b=map(int,input().split())
+    w.append(a)
+    v.append(b)
+
+s=[0,0]
+s2=[0,0]
+for i in range(0,n):
+    if w[i]<=k:
+        s[0]=w[i]
+        s[1]=v[i]
+        for j in range(i+1,n):
+            if w[i]+w[j]<=k and s[1]<v[i]+v[j]:
+                s[0]=w[i]+w[j]
+                s[1]=v[i]+v[j]
+                print(s)
+        if s2[1]<=s[1]:   
+            s2[0]=s[0]
+            s2[1]=s[1]
+
+print(s2)
 
