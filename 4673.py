@@ -1,3 +1,4 @@
+# 셀프넘버
 nn=set(range(1,10001))
 gn=set()
 
