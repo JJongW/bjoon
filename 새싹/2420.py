@@ -6,19 +6,4 @@
 # 서브도메인의 유명도는 정수이다. 두 서브도메인의 유명도가 주어졌을 때, 그 차이를 구하는 프로그램을 작성하시오.
 
 a,b=map(int,input().split())
-if a>b:
-    if a<0 and b<0:
-        print(abs(a+b))
-    elif b<0:
-        print(abs(a-b))
-    else:
-        print(abs(a-b))
-elif a==b:
-    print(0)
-else:
-    if a<0 and b<0:
-        print(abs(a+b))
-    elif a<0:
-        print(abs(b-a))
-    else:
-        print(abs(a-b))
+print(abs(a-b))
