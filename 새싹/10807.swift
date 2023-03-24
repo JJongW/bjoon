@@ -1,5 +1,5 @@
 // 개수 세기
-
+// 해당 정수에 맞다면 갯수로 세기
 let number = Int(readLine()!)!
 let array = readLine()!.split(separator: " ").map { Int(String($0))! }
 var integer = Int(readLine()!)!
