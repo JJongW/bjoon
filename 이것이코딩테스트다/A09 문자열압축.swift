@@ -1,5 +1,5 @@
 // 2020 카카오 신입공채
-// 
+// 문자열압축
 
 import Foundation
 
